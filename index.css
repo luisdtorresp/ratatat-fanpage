@@ -1,0 +1,206 @@
+
+html,body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  position: relative;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100vw;
+    border: none;
+    background: rgba(173, 173, 173, 0.15);
+    overflow-x: hidden;
+}
+
+#title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 6rem;
+  text-indent: -9999px;
+  background: url(./res/ratatat-logo-colors.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius:1.2rem;
+  width: 70%;
+  height: 185px;
+}
+
+#main{
+  margin:  auto;
+  max-width: 900px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #f2f2f2;
+  box-shadow: #222222 3px 2px 12em 0.4em;
+}
+
+section{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+a{
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(25,125,255);
+}
+
+a:visited{
+  color: rgb(240,110,40) ;
+}
+
+a:hover, a:focus{
+  color:pink;
+}
+
+h2{
+  padding-top:1.2rem;
+}
+p{
+  line-height:1.5em;
+  padding: 1em 1.5em 0 1.5em;
+  text-align: justify;
+  margin-top:0;
+}
+
+#img-div{
+  text-align: center;
+  width: 100%;
+  background-color: #d5d5d5;
+}
+
+#image{
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+  box-shadow:#010101 -0.1em 0.1em 0.5em 1pt;
+
+}
+
+article{
+  padding: 1.5rem 2em;
+}
+
+.album{
+  display:flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  justify-content: center;
+
+} 
+
+.album:nth-of-type(even){
+  flex-direction: row-reverse;
+}
+.album h3 {
+  margin-top: 0;
+}
+
+.caratula{
+  max-width: 350px;
+  max-height: 350px;
+  box-shadow: black -6px 4px 8px;
+  margin-bottom: 0.4em;
+}
+
+.info-album{
+ font-size: 1.2em;
+  padding: 0.5em 1.2em;
+ max-width: 75%;
+ min-width:250px;
+}
+.carrusel{
+  box-sizing: border-box;
+  
+}
+
+.carrusel img{
+  max-width:100%;
+
+}
+
+#timeline{
+  padding: 0.3em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+#timeline img{
+  max-width: 100%;
+  width:200px ;
+  border-radius:50%;
+  height: 200px;
+  margin-bottom: 0.4em;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: -8px 1px 0.3em rgba(0,0,0,0.6);
+}
+
+#extras{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-around ;
+}     
+
+#extras p{
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+#extras .card{
+  text-align: center;
+  width:300px ;
+  min-width: 160px;
+  min-height: 200px ;
+  border-radius: 0.6em;
+  border: solid 1px lightgrey;
+  padding: 1em;
+  margin:1rem;
+  box-shadow: -1px 1px 0.3em rgba(0,0,0,0.2);
+  background-color: #e6e6e6;
+}
+
+.card-img img{
+  height: 180px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0.5rem;
+  width:100%;
+  box-sizing: border-box;
+  
+}
+
+#mas-info h3{ text-align: center; }
+
+#enlaces{
+  display: flex;
+  flex-flow:  row wrap;
+  justify-content: space-between;
+  margin: 3em 1em;
+}
+
+footer{
+  border-top: solid 0.2rem rgba(10,10,20,0.5);
+  border-radius: 0.5rem;
+  text-shadow: 1px 1px 0.2rem black;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1.5rem; 
+  width: 100%;
+  min-height: 250px;
+  background-color: grey;
+  color: white;
+  font-size:1.3rem;
+  font-weight: bold;
+}
+
+footer p{
+  text-align: center;
+  padding: 1em 0;
+}
